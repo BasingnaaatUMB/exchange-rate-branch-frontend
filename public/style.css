@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container_cust{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tables{
+    display: flex;
+}
+
+.container_cust h1{
+    width: 90%;
+    border-bottom: 2px solid #ddd;
+    color: white;
+}
+
+.content_cust{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content_cust .table{
+    padding: 0 10px;
+    width: 400px;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.content_cust .tables{
+    margin: auto;
+    width: 100%;
+}
+
+.content_cust .table h2{
+    border-bottom: 2px solid #ddd;
+    color: white;
+}
+
+.content_cust .table table{
+    table-layout: fixed;
+    width: 400px;
+    border-collapse: collapse;
+    color: white;
+    margin: auto;
+}
+
+.content_cust .table table img{
+    max-width: 25px;
+}
+
+.content_cust .table table tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.container_cust .table table th{
+    padding: 5px;
+}
+
+.container_cust .table table th img{
+    margin: 0 5px;
+}
+
+.video{
+    height: auto;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.alert-container {
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: 10px 0;
+}
+
+.alert-inner {
+    display: inline-block;
+    padding: 8px 16px;
+    z-index: 1;
+    background-color: #ffffff;
+    color: black;
+}
